@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Responsive Landing Page </title>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\ganes\OneDrive\Desktop\prodigy task1\logo.jpeg" alt="Error loading">
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li>Home</li>
+                <li class="active">Variety</li>
+                <li>Offer</li>
+                <li>About Us</li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>    
+
+    <section class="main">
+
+            <section class="left">
+                <p class="title">Indian Foods</p>
+                <p class="msg1">Imagine a vibrant tapestry woven with threads of fire and warmth. That's the essence of Indian cuisine, a symphony of spices where earthy turmeric meets the fiery kiss of chilies, the gentle fragrance of cardamom mingles with the sharp tang of coriander, and creamy yogurt soothes 
+				the vibrant dance on your tongue. Each spoonful is a journey through the diverse regions of India, a land where steaming curries simmer with the secrets of generations, their rich aromas a promise of flavor yet to come. Crispy samosas explode with savory fillings, while fluffy naan begs to be dipped into fragrant dals and silky curries. From the refreshingly tangy chutneys to the cooling sweetness of mango lassi,
+				Indian food is a feast for all the senses, a vibrant celebration of life itself, where every meal is an experience to be savored and shared. </p>
+                <button class="cta">Order Noe</button>
+            </section>
+
+            <section class="right">
+                <img src="https://www.fusion6.com.au/wp-content/uploads/2022/09/popular-indian-dishes-cuisine.jpg" alt="Landing Image">
+            </section>
+
+    </section>
+    <section>
+        <h2 class="choose">CHOOSE & ENJOY</h2>
+        <div class="burger-container">
+            <div class="Thali-item">
+                <img src="Images/burger2.png" alt="">
+                <h2 class="center color-primary burger-heading">Thali 1</h2>
+                <p class="center msg">Unleash your inner explorer with our Indian Special Thali for 2! Dive into fluffy rice or savor roti, then pair it with dal or sambar for a hearty base. Explore a symphony of curries - choose from vibrant veggie options like Saag Paneer or Aloo Gobi. Refreshing chutneys, raita, and pickles 
+				add delightful bursts of flavor. Finish your journey with a decadent sweet dish - gulab jamun or creamy kheer. </p>
+                <button class="cta btn2">Order Now</button>
+            </div>
+            <div class="Thali-item">
+                <img src="Images/burger.png" alt="">
+                <h2 class="center color-primary burger-heading">Thali 2</h2>
+                <p class="center msg">Unleash your inner explorer with our Indian Special Thali for 2! Choose fluffy rice or savor roti, pair it with a comforting dal or tangy sambar for a delicious base. Explore a symphony of curries with vibrant veggie options, then enjoy refreshing chutneys, 
+				cool raita, and zesty pickles. Finish your adventure with a decadent sweet treat!  </p>
+                <button class="cta btn2">Order Now</button>
+            </div>
+            <div class="Thali-item">
+                <img src="Images/burger2.png" alt="">
+                <h2 class="center color-primary burger-heading">Thali 3</h2>
+                <p class="center msg">Unfold a world of flavor with our Indian Special Thali for 2! Dive into fluffy rice or savor roti, both accompanied by a hearty dal or sambar. Explore a symphony of curries and relish refreshing chutneys, all culminating in a decadent sweet finale! . </p>
+                <button class="cta btn2">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="Thali-footer">
+            <div class="footer-bg">
+                <img src="C:\Users\ganes\OneDrive\Desktop\prodigy task1\logo.jpeg" alt="">
+                <div class="left-footer">
+                    <p class="color-white para-font"><p>&copy; 2023 Indian Food. All rights reserved. | Designed by Lakshmi Ganesh</p></p>
+                </div>  
+            </div>
+        </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('opened')
+        })
+
+    </script>
+
+</body>
+</html>
